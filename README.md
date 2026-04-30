@@ -1,5 +1,5 @@
-# COSC702-BruteForce-Detection
-#Benchmarking ML algorithms for brute force attack detection on Azure authentication logs
+#COSC702-BruteForce-Detection
+**Benchmarking ML algorithms for brute force attack detection on Azure authentication logs
 **Course:** COSC 702: Advanced AI-Driven Software Engineering 
 **Institurion:** Khalifa University 
 **Submitted to:** Dr. Jamal Bentahar
@@ -13,17 +13,24 @@ This project presents a comprehensive comparative analysis of ten Machine Learni
 
 ---
 
-## Repoistory Structure 
 
-├── config.py              #Shared imports, constants and helper functions. 
-├── Main_AD_Code.py             #Main comparative analysis; trains all 10 models. 
-├── Ablation_Study.py         #Ablation study, 3 experiments. 
-├── Scenarios_Test.py        #Scenario-based testing across 6 datasets. 
-├── dataset/
-│   ├── Training/          #13k labeled training dataset. 
-│   └── Testing/           #Scenario testing datasets (1k to 100k).
-└── outputs/               #Generated charts. 
 
+## Repository Structure
+
+```
+COSC702-BruteForce-Detection/
+│
+├── config.py               #Shared imports, constants and helper functions.
+├── Main_AD_Code.py         #Main comparative analysis, trains all 10 models.
+├── Ablation_Study.py       #Ablation study, 3 experiments. 
+├── Scenarios_Test.py       #Scenario-based testing across 6 datasets. 
+│
+├── datasets/
+│   ├── Training/           #13k labeled training dataset.
+│   └── Testing/            #Scenario testing datasets (1k to 100k).
+│
+└── outputs/                #Generated charts. 
+```
 ---
 
 # Run Order 
