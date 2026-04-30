@@ -1,7 +1,7 @@
 # COSC702-BruteForce-Detection
 # Benchmarking ML algorithms for brute force attack detection on Azure authentication logs
 **Course:** COSC 702: Advanced AI-Driven Software Engineering 
-**Institurion:** Khalifa University 
+**Institution:** Khalifa University 
 **Submitted to:** Dr. Jamal Bentahar
 **Authors:** Aisha AlQahtani, Salwa Mohammed Razaulla  
 
